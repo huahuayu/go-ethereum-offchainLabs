@@ -24,14 +24,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common/hexutil"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/types"
+	"github.com/huahuayu/go-ethereum-offchainLabs/log"
+	"github.com/huahuayu/go-ethereum-offchainLabs/params"
+	"github.com/huahuayu/go-ethereum-offchainLabs/rlp"
+	"github.com/huahuayu/go-ethereum-offchainLabs/tests"
 	"github.com/urfave/cli/v2"
 )
 

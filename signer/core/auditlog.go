@@ -20,11 +20,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common/hexutil"
+	"github.com/huahuayu/go-ethereum-offchainLabs/internal/ethapi"
+	"github.com/huahuayu/go-ethereum-offchainLabs/log"
+	"github.com/huahuayu/go-ethereum-offchainLabs/signer/core/apitypes"
 )
 
 type AuditLogger struct {

@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core"
+	"github.com/huahuayu/go-ethereum-offchainLabs/eth/downloader"
+	"github.com/huahuayu/go-ethereum-offchainLabs/eth/ethconfig"
+	"github.com/huahuayu/go-ethereum-offchainLabs/ethclient"
+	"github.com/huahuayu/go-ethereum-offchainLabs/ethstats"
+	"github.com/huahuayu/go-ethereum-offchainLabs/internal/debug"
+	"github.com/huahuayu/go-ethereum-offchainLabs/les"
+	"github.com/huahuayu/go-ethereum-offchainLabs/node"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p/nat"
+	"github.com/huahuayu/go-ethereum-offchainLabs/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

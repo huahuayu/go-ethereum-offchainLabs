@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/types"
+	"github.com/huahuayu/go-ethereum-offchainLabs/metrics"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p/enode"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p/enr"
+	"github.com/huahuayu/go-ethereum-offchainLabs/params"
 )
 
 const (

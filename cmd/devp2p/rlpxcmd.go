@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/huahuayu/go-ethereum-offchainLabs/cmd/devp2p/internal/ethtest"
+	"github.com/huahuayu/go-ethereum-offchainLabs/crypto"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p/rlpx"
+	"github.com/huahuayu/go-ethereum-offchainLabs/rlp"
 	"github.com/urfave/cli/v2"
 )
 

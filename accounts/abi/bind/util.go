@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/huahuayu/go-ethereum-offchainLabs"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/types"
+	"github.com/huahuayu/go-ethereum-offchainLabs/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

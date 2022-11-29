@@ -21,10 +21,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/huahuayu/go-ethereum-offchainLabs/internal/debug"
+	"github.com/huahuayu/go-ethereum-offchainLabs/internal/flags"
+	"github.com/huahuayu/go-ethereum-offchainLabs/p2p/enode"
+	"github.com/huahuayu/go-ethereum-offchainLabs/params"
 	"github.com/urfave/cli/v2"
 )
 

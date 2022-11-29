@@ -1,11 +1,11 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/state"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/types"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/vm"
+	"github.com/huahuayu/go-ethereum-offchainLabs/ethdb"
 )
 
 func NewArbEthereum(

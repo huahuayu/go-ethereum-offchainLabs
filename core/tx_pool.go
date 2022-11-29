@@ -25,15 +25,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common/prque"
+	"github.com/huahuayu/go-ethereum-offchainLabs/consensus/misc"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/state"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/types"
+	"github.com/huahuayu/go-ethereum-offchainLabs/event"
+	"github.com/huahuayu/go-ethereum-offchainLabs/log"
+	"github.com/huahuayu/go-ethereum-offchainLabs/metrics"
+	"github.com/huahuayu/go-ethereum-offchainLabs/params"
 )
 
 const (

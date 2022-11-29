@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common/math"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/rawdb"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core/state"
+	"github.com/huahuayu/go-ethereum-offchainLabs/params"
 )
 
 var loopInterruptTests = []string{

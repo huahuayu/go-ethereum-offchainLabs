@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common/math"
+	"github.com/huahuayu/go-ethereum-offchainLabs/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

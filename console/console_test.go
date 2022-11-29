@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/consensus/ethash"
+	"github.com/huahuayu/go-ethereum-offchainLabs/console/prompt"
+	"github.com/huahuayu/go-ethereum-offchainLabs/core"
+	"github.com/huahuayu/go-ethereum-offchainLabs/eth"
+	"github.com/huahuayu/go-ethereum-offchainLabs/eth/ethconfig"
+	"github.com/huahuayu/go-ethereum-offchainLabs/internal/jsre"
+	"github.com/huahuayu/go-ethereum-offchainLabs/miner"
+	"github.com/huahuayu/go-ethereum-offchainLabs/node"
 )
 
 const (

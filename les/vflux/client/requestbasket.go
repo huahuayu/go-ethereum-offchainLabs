@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/huahuayu/go-ethereum-offchainLabs/les/utils"
+	"github.com/huahuayu/go-ethereum-offchainLabs/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

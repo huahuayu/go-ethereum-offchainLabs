@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/crypto"
+	"github.com/huahuayu/go-ethereum-offchainLabs/eth/protocols/snap"
+	"github.com/huahuayu/go-ethereum-offchainLabs/internal/utesting"
+	"github.com/huahuayu/go-ethereum-offchainLabs/light"
+	"github.com/huahuayu/go-ethereum-offchainLabs/trie"
 	"golang.org/x/crypto/sha3"
 )
 

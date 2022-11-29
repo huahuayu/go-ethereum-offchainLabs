@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/huahuayu/go-ethereum-offchainLabs/accounts"
+	"github.com/huahuayu/go-ethereum-offchainLabs/accounts/keystore"
+	"github.com/huahuayu/go-ethereum-offchainLabs/cmd/utils"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/crypto"
 	"github.com/urfave/cli/v2"
 )
 

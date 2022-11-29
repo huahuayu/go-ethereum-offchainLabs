@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/huahuayu/go-ethereum-offchainLabs/accounts"
+	"github.com/huahuayu/go-ethereum-offchainLabs/accounts/keystore"
+	"github.com/huahuayu/go-ethereum-offchainLabs/accounts/scwallet"
+	"github.com/huahuayu/go-ethereum-offchainLabs/accounts/usbwallet"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common"
+	"github.com/huahuayu/go-ethereum-offchainLabs/common/hexutil"
+	"github.com/huahuayu/go-ethereum-offchainLabs/internal/ethapi"
+	"github.com/huahuayu/go-ethereum-offchainLabs/log"
+	"github.com/huahuayu/go-ethereum-offchainLabs/rpc"
+	"github.com/huahuayu/go-ethereum-offchainLabs/signer/core/apitypes"
+	"github.com/huahuayu/go-ethereum-offchainLabs/signer/storage"
 )
 
 const (
