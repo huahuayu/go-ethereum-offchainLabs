@@ -19,6 +19,7 @@ package rpc
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 	"reflect"
 	"strconv"
 	"strings"
@@ -91,6 +92,8 @@ func newHandler(connCtx context.Context, conn jsonWriter, idgen func() ID, reg *
 	return h
 }
 
+const maxBatchResponseSize int = 10_000_000 // 10MB
+
 // handleBatch executes all messages in a batch and returns the responses.
 func (h *handler) handleBatch(msgs []*jsonrpcMessage) {
 	// Emit error response for empty batches:
@@ -113,10 +116,21 @@ func (h *handler) handleBatch(msgs []*jsonrpcMessage) {
 	}
 	// Process calls on a goroutine because they may block indefinitely:
 	h.startCallProc(func(cp *callProc) {
-		answers := make([]*jsonrpcMessage, 0, len(msgs))
+		answers := make([]json.RawMessage, 0, len(msgs))
+		var totalSize int
 		for _, msg := range calls {
 			if answer := h.handleCallMsg(cp, msg); answer != nil {
-				answers = append(answers, answer)
+				serialized, err := json.Marshal(answer)
+				if err != nil {
+					h.conn.writeJSON(cp.ctx, errorMessage(&parseError{"error serializing response: " + err.Error()}))
+					return
+				}
+				totalSize += len(serialized)
+				if totalSize > maxBatchResponseSize {
+					h.conn.writeJSON(cp.ctx, errorMessage(&invalidRequestError{fmt.Sprintf("batch response exceeded limit of %v bytes", maxBatchResponseSize)}))
+					return
+				}
+				answers = append(answers, serialized)
 			}
 		}
 		h.addSubscriptions(cp.notifiers)
